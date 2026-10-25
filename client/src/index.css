@@ -1,0 +1,33 @@
+@import 'tailwindcss';
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  background: #000;
+  color: #fff;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Peças repetidas da interface, no estilo da imagem de referência:
+   fundo preto, bordas finas arredondadas. */
+@layer components {
+  .card {
+    @apply rounded-2xl border border-neutral-800 bg-neutral-950 p-5;
+  }
+  .campo {
+    @apply rounded-xl border border-neutral-800 bg-black px-4 py-3 text-white outline-none placeholder:text-neutral-600 focus:border-neutral-500;
+  }
+  .botao {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl border border-neutral-700 px-4 py-3 font-medium transition hover:bg-neutral-900 disabled:cursor-not-allowed disabled:opacity-40;
+  }
+  .botao-principal {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl bg-white px-4 py-3 font-semibold text-black transition hover:bg-neutral-200 disabled:cursor-wait disabled:opacity-60;
+  }
+  .botao-redondo {
+    @apply inline-flex size-12 items-center justify-center rounded-full border border-neutral-700 transition hover:bg-neutral-900 disabled:cursor-not-allowed disabled:opacity-30;
+  }
+}

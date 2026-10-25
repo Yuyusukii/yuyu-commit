@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="400" viewBox="0 0 1280 400" role="img" aria-label="Yuyu Commit — assista junto, converse e transmita">
+  <defs>
+    <radialGradient id="brilho1" cx="18%" cy="20%" r="60%">
+      <stop offset="0" stop-color="#ff0033" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#ff0033" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="brilho2" cx="85%" cy="85%" r="60%">
+      <stop offset="0" stop-color="#9146ff" stop-opacity="0.38"/>
+      <stop offset="1" stop-color="#9146ff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="brilho3" cx="70%" cy="10%" r="45%">
+      <stop offset="0" stop-color="#17d5ff" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#17d5ff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="titulo" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#d4d4d8"/>
+    </linearGradient>
+    <linearGradient id="botao" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff2d55"/>
+      <stop offset="1" stop-color="#9146ff"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="400" fill="#050507"/>
+  <rect width="1280" height="400" fill="url(#brilho1)"/>
+  <rect width="1280" height="400" fill="url(#brilho2)"/>
+  <rect width="1280" height="400" fill="url(#brilho3)"/>
+
+  <!-- grade sutil -->
+  <g stroke="#ffffff" stroke-opacity="0.04">
+    <path d="M0 80H1280M0 160H1280M0 240H1280M0 320H1280"/>
+    <path d="M160 0V400M320 0V400M480 0V400M640 0V400M800 0V400M960 0V400M1120 0V400"/>
+  </g>
+
+  <!-- ícone de play -->
+  <g transform="translate(150 200)">
+    <circle r="78" fill="url(#botao)" opacity="0.18"/>
+    <circle r="58" fill="url(#botao)"/>
+    <path d="M-16 -26 L30 0 L-16 26 Z" fill="#ffffff"/>
+  </g>
+
+  <g font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif">
+    <text x="270" y="190" font-size="92" font-weight="800" fill="url(#titulo)" letter-spacing="-2">Yuyu Commit</text>
+    <text x="274" y="246" font-size="30" fill="#a1a1aa">Assista junto. Converse. Transmita. Sem criar conta.</text>
+
+    <!-- selos -->
+    <g font-size="20" font-weight="600">
+      <g transform="translate(274 285)">
+        <rect width="142" height="40" rx="20" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.14"/>
+        <circle cx="22" cy="20" r="6" fill="#ff0033"/>
+        <text x="38" y="27" fill="#e4e4e7">YouTube</text>
+      </g>
+      <g transform="translate(428 285)">
+        <rect width="118" height="40" rx="20" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.14"/>
+        <circle cx="22" cy="20" r="6" fill="#17d5ff"/>
+        <text x="38" y="27" fill="#e4e4e7">Vimeo</text>
+      </g>
+      <g transform="translate(558 285)">
+        <rect width="118" height="40" rx="20" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.14"/>
+        <circle cx="22" cy="20" r="6" fill="#9146ff"/>
+        <text x="38" y="27" fill="#e4e4e7">Twitch</text>
+      </g>
+      <g transform="translate(688 285)">
+        <rect width="234" height="40" rx="20" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.14"/>
+        <circle cx="22" cy="20" r="6" fill="#22c55e"/>
+        <text x="38" y="27" fill="#e4e4e7">Chamada de voz HD</text>
+      </g>
+      <g transform="translate(934 285)">
+        <rect width="232" height="40" rx="20" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.14"/>
+        <circle cx="22" cy="20" r="6" fill="#f59e0b"/>
+        <text x="38" y="27" fill="#e4e4e7">Tela em até 4K/60</text>
+      </g>
+    </g>
+  </g>
+</svg>
